@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+.navbar ul {
+  display: inline-flex;
+}
+.navbar ul li {
+  margin-right: 10px;
+  list-style: none;
+  height: 20px;
+}
+.navbar ul li:hover {
+  cursor: pointer;
+}
+.navbar .n-icon {
+  color: #AD312F;
+  font-size: 20px;
+}
+.navbar .navicon {
+  float: right;
+}
+.navbar .navicon .avatar {
+  margin-top: -10px;
+}
+.navbar .navicon li {
+  margin-left: 20px;
+}
+.navbar .search {
+  position: relative;
+  margin-left: 20px;
+}
+.navbar .search .n-menu {
+  color: #534342;
+}
+.navbar .search li:nth-of-type(1) {
+  position: absolute;
+  left: 20px;
+  margin-top: 10px;
+}
+.navbar .search li:nth-of-type(3) {
+  position: absolute;
+  margin-top: 10px;
+  left: 87%;
+}
+.navbar .search input {
+  border: 1px solid #FFFBFF;
+  padding: 10px;
+  background: #AD312F;
+  padding-left: 50px;
+  width: 328px;
+  background: linear-gradient(0deg, rgba(173, 49, 47, 0.11), rgba(173, 49, 47, 0.11)), #FFFBFF;
+  border-radius: 28px;
+}

@@ -1,0 +1,239 @@
+  /*---------------------------chapters cards css begins here--------------------------------------------*/
+.content_holder{
+	position: absolute;
+	background: #f2f2f2;
+	margin: 5% 0px 100px 100px;
+	height: 90%;
+	width: 90%;
+
+}
+.holder{
+	position: absolute;
+	margin: 5% 0px 100px 100px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90%;
+	width: 90%;
+	background: #5a5252;
+	border-radius: 1em;
+
+.container{
+	position: absolute;
+	background: #f2f2f2;
+	display: grid;
+	grid-gap:1rem;
+	/*grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));*/
+	grid-template-columns: auto auto auto;
+	align-items:start;
+	grid-auto-flow: row;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+
+}
+.card{
+	border-style: solid;
+	border-color: #5a5959;
+	border-radius: 1em;
+	border-width: 1px;
+	margin: 50px 30px 30px 30px;
+	padding: 10px;
+	box-shadow: 0 4px 16px 0 rgba(180, 23, 23, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.card:hover{
+	transform:translate(-0.5%);
+	box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+}
+.card .card_logo{
+	text-align: center;
+	border-radius: 1em;
+	background:#973320;
+	margin-left: auto;
+  	margin-right: auto;
+	width:150px;
+	height:150px;
+	margin-top:10px;
+	margin-bottom: 20px;
+
+}
+.card .card_logo img{
+	display: block;
+	width:150px;
+	height:150px;
+	object-fit: cover;
+	border-radius: 0.5em;
+	
+}
+.card .card_title{
+	padding: 0 9px 0 9px;
+}
+.card .card_title header{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #000000;
+	margin: 5px;
+}
+.card .card_title p{
+	text-align:center;
+	font-size: 13px;
+	line-height: 1.7;
+	color: #3d3d3d;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.card .card_buttons{
+	display:inline-grid;
+	width: 100%;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	grid-gap:2rem;
+
+}
+.card .card_buttons button{
+	background: #973320;
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px;
+	padding:1rem ;
+	border-radius:0.4rem;
+	border:none;
+	color: #f0eded;
+	font-weight: bold;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.card_buttons button:hover, .card_buttons button:active{
+	transform:translate(-0.6%);
+	background:rgba(238, 81, 81, 0.5) ;
+	box-shadow: 0 4rem 8rem rgba(146, 125, 125, 0.5);
+}
+
+@media only screen 
+and (min-device-width : 700px) 
+and (max-device-width : 1050px) {
+  .container{
+	grid-template-columns: repeat(2, 1fr);
+	padding-right: 50px;
+  }
+  .moreinfo{
+	grid-template-columns: repeat(1, 2fr);
+	width: 70%;
+  }
+}
+@media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 670px) {
+  .container{
+	grid-template-columns: repeat(1, 1fr);
+	padding-right: 50px;
+  }
+  .moreinfo{
+	width: 100%;
+}
+}
+@media only screen 
+and (min-device-width : 1050px) 
+and (max-device-width : 1500px) {
+  .container{
+	grid-template-columns: repeat(3, 1fr);
+	padding-right: 50px;
+  }
+}
+@media only screen 
+and (min-device-width : 2200px) {
+  .container{
+	grid-template-columns: repeat(4, 1fr);
+	padding-right: 50px;
+  }
+}
+
+  /*----------------------------chapters cards css ends here-----------------------------------------*/
+
+
+
+ /*----------------------------more info pop up begins here-----------------------------------------*/
+.holderMoreInfo{
+	background:rgba(212, 216, 212,0.5);
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	display: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 1em;
+}
+ .moreinfo{
+	position:relative;
+	max-height: 90%;
+	width: 40%;
+	border-radius: 2em;
+	text-align: center;
+	margin-left: 0 auto;
+	background:#dddcdc;
+  	border: 1px solid rgb(212, 216, 212);
+	box-shadow: 0 4px 16px 0 rgba(180, 23, 23, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);;
+  	padding: 10px;
+	overflow: auto;
+}
+.C_item{
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 1em;
+	border-width: 2px;
+	margin: 0px;
+	padding:20px;
+}
+.C_item img{
+	height: 150px;
+	width: 150px;
+	border-radius: 0.2em;
+	margin: 8px;
+}
+.C_item #images{
+	align-items: center;
+	display: grid;
+	grid-gap:1rem;
+	grid-template-columns: auto auto auto;
+	align-items:start;
+	grid-auto-flow: row;
+	grid-auto-columns: auto;
+}
+hr{
+	color: rgba(151, 32, 11, 0.3);
+	width: 50%;
+    border: 1px solid;
+    text-align: center;
+	margin: auto;
+}
+.moreinfo .fa-times{
+	position:absolute;
+	top:1rem; right: 0.5rem;
+	cursor: pointer;
+	color: #444;
+	font-size: 1.5rem;	
+}
+.moreinfo .fa-times:hover{
+	transform:scale(1.1);
+	color: #973320;
+}
+.C_item header{
+	font-size: 17px;
+	font-weight:600;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.C_item header, .C_item p{
+	padding: 5px;
+	
+}
+.C_item p{
+	font-size: 0.8rem;
+}
+}
+ 
+ /*-------------------------------more info pop up ends here-----------------------------------------*/

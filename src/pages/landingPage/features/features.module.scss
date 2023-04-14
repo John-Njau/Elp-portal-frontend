@@ -1,0 +1,58 @@
+.features_wrapper {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #AD312F;
+    }
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+    justify-content: center;
+
+        .card {
+            @media (max-width: 480px) {
+                width: 400px;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 380px;
+            border-radius: 10px;
+            overflow: hidden;
+
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+            img {
+                height: 250px;
+                width: 100%;
+            }
+            .feature {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                padding-inline: 2rem;
+                padding-bottom: 2rem;
+
+                >:nth-child(1) {
+                    text-transform: uppercase;
+                    color: #AD312F;
+                    font-weight: 600;
+                }
+                >:nth-child(2) {
+                    font-size: 1rem;
+                    letter-spacing: .02rem;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+Landing page tasks 
+ -> header       -->abdulaziz
+ -> hero section --> abdulaziz
+ -> features section -> Rahab magiri
+ -> about us section => eric mbatia
+ -> footer section -> john
+ 
+ Layout
+ -> sidebar felix
+ -> navbar  -> kasim
+ -> outlet/main component
+ -> footer -> john
+ 
+ Main pages 
+ -> Dashboard -> erick
+ -> Events -> cosmas
+ -> chapters -> felix
+ -> Hubs -> abdulaziz
+    -> cards
+ -> Opportunities -> rahab magiri
+ -> profile view -> Grace
+ -> update profile -> Grace

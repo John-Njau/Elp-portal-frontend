@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .eventImages {
+    max-width: 20%;
+    min-height: 30em;
+  }
+
+.eventImage_1 {
+    padding-bottom: 3em;
+}
+
+.eventImage_2 {
+    padding-top: 3em;
+}
+
+.eventImage_3 {
+    padding-bottom: 2em;
+}
+
+.eventImage_4 {
+    padding-top: 1em;
+}
+
+.eventImage_5 {
+    padding-bottom: 3em;
+}

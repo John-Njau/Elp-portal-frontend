@@ -1,0 +1,107 @@
+.single-hub {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .hub-intro{
+        height: 100%;
+        width: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .hub-title{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .hub-image-container{
+            max-width: 100%;
+            .hub-description{
+                text-align: center;
+            }
+            .image-container{
+                width: 100%;
+                height: auto;
+                
+                img {
+                    display: block;
+                   width: 100%;
+                    height: auto;
+                    margin: 0 auto;
+                }
+
+            }
+         
+            
+            
+        }
+        
+    }
+    .hub-info{
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+       
+        .about-title{
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .hub-about{
+            // margin-top: 2rem;
+        }
+    }
+    .hub-upcoming-events{
+        // height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    
+        .about-title{
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .hub-events{
+            // margin-top: 2rem;
+           
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            margin-top: 1rem;
+            // make child elements 100% width
+            & > * {
+                flex: 0 0 100%;
+             
+            }       
+
+
+             
+            &::-webkit-scrollbar {
+                width: 10px;
+                height: 10px;
+              }
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background: #888;
+                }
+        }
+    }
+   
+   
+    
+}

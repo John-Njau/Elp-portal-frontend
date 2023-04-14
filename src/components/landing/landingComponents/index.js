@@ -1,0 +1,6 @@
+export {default as LandingNavbar } from './LandingNavbar'
+export {default as LandingHome } from './LandingHome'
+export {default as LandingAbout } from './LandingAbout'
+export {default as LandingEvents } from './LandingEvents'
+export {default as NavigationDots } from './NavigationDots'
+export {default as SocialMedia } from './SocialMedia'

@@ -1,0 +1,85 @@
+$primaryBg:#FFDCC3;
+$primary:#800;
+$secondary:#d13f3f;
+$equity:  #8B181A;
+$equityLight: #A32A29;
+
+.page {
+    // border: 1px solid red;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+
+    background: #F2F2F2;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        min-height: 100vh;
+        // border: 1px solid red;
+        width: 100%;
+
+        .main_wrapper {
+            // border: 1px solid red;
+            width: 100%;
+            background: #FFFFFF;
+            // margin-right: 1rem;
+            padding: 1rem;
+
+            position: relative;
+
+            .header {
+                font-weight: 600;
+                font-size: 1.2rem;
+                padding: 1rem;
+                margin-top: 1rem;
+                width: 100%;
+
+                @media (max-width: 678px) {
+                    width: 100%;
+                }
+                >:nth-child(2) {
+                        font-weight: 500;
+                        padding-left: 1rem;
+                        font-size: 1rem;
+                        display: inline-block;
+                    }
+            }
+            .header_alt {
+                font-weight: 600;
+                font-size: 1.2rem;
+                padding: .5rem;
+                margin-top: 1rem;
+                border-bottom: 1px solid $equity;
+                width: 100%;
+                text-align: center;
+                
+                @media (max-width: 678px) {
+                    width: 100%;
+                }
+                >:nth-child(2) {
+                        font-weight: 500;
+                        padding-left: 1rem;
+                        font-size: 1rem;
+                        display: inline-block;
+                    }
+            }
+            .jobs {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                @media (max-width: 480px){
+                    justify-content: center;
+                }
+                // card
+            }
+            // job (modal)
+        }
+    }
+}

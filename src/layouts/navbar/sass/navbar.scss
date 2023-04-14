@@ -1,0 +1,76 @@
+// @import './variables';
+
+// .navbar{
+//     width:100%;
+//     position: relative;
+//     margin-top: 20px;
+
+//     ul{
+//         display: inline-flex;
+
+//         li{
+//             margin-right: 10px;
+//             list-style: none;
+//             height: 20px;
+
+//             &:hover{
+//                 cursor: pointer;
+//             }
+
+//         }
+
+//     }
+
+//     .n-icon{
+//         color: $brown;
+//         font-size: 20px;
+//     }
+
+//     .navicon{
+//         float: right;
+
+//         .avatar{
+//             margin-top: -10px;
+//         }
+
+//         li{
+//             margin-left: 20px;
+//         }
+//     }
+
+//     .search{
+//         position: relative;
+//         margin-left: 20px;
+
+//         .n-menu{
+//             color: $gray;
+//         }
+
+//         li{
+//             &:nth-of-type(1){
+//                 position:absolute;
+//                 left:20px ;
+//                 margin-top: 10px;
+
+//             }
+
+//             &:nth-of-type(3){
+//                 position: absolute;
+//                 margin-top: 10px;
+//                 left: 87%;
+//             }
+//         }
+
+
+//         input{
+//             border: 1px solid $shady-white;
+//             padding: 10px;
+//             background: $brown;
+//             padding-left: 50px;
+//             width: 328px;
+//             background: linear-gradient(0deg, rgba(173, 49, 47, 0.11), rgba(173, 49, 47, 0.11)), #FFFBFF;
+//             border-radius: 28px;
+//         }
+        
+//     }
+// }

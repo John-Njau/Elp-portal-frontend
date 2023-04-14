@@ -1,0 +1,45 @@
+
+// .component{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: flex-end;
+
+    
+// }
+// .main_component{
+//     flex: 6;
+//     position: relative;
+//     margin: 90px  30px  30px 200px;
+//     //padding: 20px;
+//     height:100vh;
+//     width: auto;
+// }
+
+
+
+ .component{
+    display: flex;
+    // align-items: center;
+    flex-direction: row;
+    // justify-content: flex-start;
+    .main_component{
+        width: 90%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        // .mainNav{
+        //     display: flex;
+        // }
+        // .mainComponent{
+            
+        // }
+
+    }
+    
+    .mainSideBar{
+        width: 10%;
+        height: 100vh;
+
+    }
+    
+}

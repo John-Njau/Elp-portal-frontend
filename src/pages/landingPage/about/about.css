@@ -1,0 +1,128 @@
+/*default-small size screens upto 768px wide*/
+.about_container {
+   
+   
+    background: #F4F4F4;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.about_us {
+    color: #AD312F;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    
+    margin-bottom: 1rem;
+
+}
+
+.about_us_div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #534342;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: left;
+    line-height: 1.25rem;
+}
+
+
+.our_philosophy {
+    margin-bottom: 0.5rem;
+    color: #AD312F; 
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+
+
+.pmv_common {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: #AD312F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.25rem;
+}
+.lower_box {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* CSS for medium devices */
+    
+    .about_us_div {
+        padding: 50px;
+        padding-bottom: 25px;
+        padding-top: 0px;
+        text-align: left;
+    }
+    .lower_box {
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .purpose_mission_vision {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pmv_box {
+        width: 30%;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+}
+
+@media (min-width: 992px)  {
+    /* CSS for large devices */
+    .about_us_div{
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+
+    }
+    .lower_box {
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .purpose_mission_vision {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pmv_box {
+        width: 30%;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+}
+

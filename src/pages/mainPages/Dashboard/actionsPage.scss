@@ -1,0 +1,22 @@
+.title{
+   
+    h1{
+      
+        height: 100%;
+        width: 100%;
+
+    }
+}
+.table{
+   //make table responsive
+    width: 100% !important;
+
+  
+    //make table overflow to scroll and not go off the container
+    overflow: auto !important;
+    //make table scrollable
+    display: block !important;
+
+
+
+}

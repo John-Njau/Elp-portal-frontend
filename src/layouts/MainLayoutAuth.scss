@@ -1,0 +1,83 @@
+.container-fluid{
+    min-height: 100vh;
+
+    .main-content{
+        height: 100%;
+        .mobile{
+            //remove color from links
+            a{
+                color: none;
+                text-decoration: none;
+                font-size:medium;
+            }
+            .logo{
+                text-align: center;
+                margin: 1rem;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        .toggle-mobile-x{
+            
+            text-align: center;
+            margin-left: 1rem;
+            width: 100%;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+                list-style: none;
+                font-weight: 3rem;
+                color: black;
+                //remove list color
+                li{
+                    border: 1px solid blue;
+                    width: 100%;
+                    text-align: center;
+                    color: black;
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 1rem;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                }
+            }
+            span{
+                text-align: center;
+                align-items: center;
+                //push to end of container
+                margin: auto;
+                
+            }
+            //hide on desktop screens
+            @media (min-width: 768px) {
+                display: none;
+            }
+        
+        }
+        .main-navbar{
+            .toggle-mobile{
+
+                text-align: end;
+                position: absolute;
+                top: 14px;
+                right: 20px;
+                //hide on desktop screens
+                @media (min-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    }
+    
+    

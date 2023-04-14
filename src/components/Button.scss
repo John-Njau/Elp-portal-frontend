@@ -1,0 +1,27 @@
+.button{
+    .sign-in{
+    @media (max-width: 760px) {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        
+        color: black;
+
+        :hover{
+            color: #8B181A;
+        }
+}
+}
+    .sign-up{
+    @media (max-width: 760px) {
+     
+        padding: 1rem;
+        background-color: #FBF0F4;
+        color: black;
+
+        :hover{
+            color: #8B181A;
+        }
+}
+    
+}
+}
